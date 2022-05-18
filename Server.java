@@ -9,11 +9,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class ExServer {
+public class Server {
     public static void main(String[] args) throws IOException, InterruptedException {
         System.setProperty("org.graphstream.ui", "swing");
         int port = Integer.parseInt(args[0]);
-        System.out.println("Running server");
 
         Graph g = new MultiGraph("G",false,true);
         Path f = new File("layout.css").toPath();
