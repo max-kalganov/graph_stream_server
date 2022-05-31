@@ -1,4 +1,4 @@
-PORT = 8080
+PORT = 8008
 
 CLASS_FILE = Server.class
 
