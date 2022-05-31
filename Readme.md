@@ -11,9 +11,9 @@
 ## Working with project
 ### MAIN USAGE
 ***
-To run the server type `make run_server`. It will compile .java file and run it on the 8008 port.
+To run the server type `make`. It will compile .java file and run it on the 8008 port.
 
-To specify port type `make run_server PORT={desired port}`.
+To specify port type `make PORT={desired port}`.
 
 <br/>
 
