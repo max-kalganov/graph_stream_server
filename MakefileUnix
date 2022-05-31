@@ -1,12 +1,12 @@
 run_server: compile_server
 	echo "Running server"
-	java -cp classpaths/*;. Server.java $(PORT)
+	java -cp classpaths/*:. Server.java $(PORT)
 
 compile_server: $(CLASS_FILE)
 
 $(CLASS_FILE):
 	echo "Compiling server"
-	javac -cp classpaths/*;. Server.java
+	javac -cp classpaths/*:. Server.java
 
 clean:
 	echo "Removing .class file"
